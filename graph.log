@@ -1,0 +1,25 @@
+* a3498db Agregando 2 parrafitos
+* 20d5ec7 Resolviendo conflicto en estaciones del ano y fecha de inicio
+* 4f6a8b3 agregando las estaciones del ano
+* 6cb5c18 resolviendo conflicto merge main/html en el documento index.html2
+*   21f8d7e resolviendo conflicto merge main/html en el documento index.html
+|\  
+| * a90be3f puse mayuscula a html
+* | 3819004 poniendo mayuscula a MAIN
+* | 9746860 Merge branch 'html'
+|\| 
+| * 2b8d31a agregando index js al index html
+| * 8ad7d91 Agregando index.js al index.haml
+* |   8eb1308 Agregando style.css al index.html
+|\ \  
+| * | 74d2484 Creando index.js
+* | | dd011a9 Creando style.css
+| |/  
+|/|   
+* | 1007020 Creando archivo index.html
+|/  
+* cb761bc Ignorando archivos ejecutables .exe
+* f85ad85 creando licencia del repositorio
+* d5953e1 agregando mas contenido al README
+* a527974 Agregando contenido inicial al README
+* bd1d3d3 primer commit

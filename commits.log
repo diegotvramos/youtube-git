@@ -1,0 +1,116 @@
+commit a3498dbfb213ed0d160263074ab20d4f9b699ada
+Author: diegoramos <00dramos@gmail.com>
+Date:   Sun Nov 5 21:33:25 2023 -0400
+
+    Agregando 2 parrafitos
+
+commit 20d5ec700bd5df5475ecdfa95ae2ce56462261d5
+Author: diegoramos <00dramos@gmail.com>
+Date:   Sun Nov 5 19:44:00 2023 -0400
+
+    Resolviendo conflicto en estaciones del ano y fecha de inicio
+
+commit 4f6a8b37250fffbc2d039c89dd9d0fc8de5fae83
+Author: diegoramos <00dramos@gmail.com>
+Date:   Sun Nov 5 19:44:00 2023 -0400
+
+    agregando las estaciones del ano
+
+commit 6cb5c18f7d07607dcf540c0ea204ace77396cd27
+Author: diegoramos <00dramos@gmail.com>
+Date:   Sun Nov 5 19:32:53 2023 -0400
+
+    resolviendo conflicto merge main/html en el documento index.html2
+
+commit 21f8d7e8e4e6bce3249c991eb5762bce7fb25f40
+Merge: 3819004 a90be3f
+Author: diegoramos <00dramos@gmail.com>
+Date:   Sun Nov 5 19:32:11 2023 -0400
+
+    resolviendo conflicto merge main/html en el documento index.html
+
+commit 3819004f0723bf08fffdc88efadcb2de1f331ac8
+Author: diegoramos <00dramos@gmail.com>
+Date:   Sat Nov 4 23:54:15 2023 -0400
+
+    poniendo mayuscula a MAIN
+
+commit a90be3f0dcd0a6ba6d00acc0218cd00d174ed2db
+Author: diegoramos <00dramos@gmail.com>
+Date:   Sat Nov 4 23:52:18 2023 -0400
+
+    puse mayuscula a html
+
+commit 9746860d4867ecdf040bac8e834061b524d64666
+Merge: 8eb1308 2b8d31a
+Author: diegoramos <00dramos@gmail.com>
+Date:   Sat Nov 4 23:47:02 2023 -0400
+
+    Merge branch 'html'
+
+commit 2b8d31abc186b2df84c7793fd22b52d42b63da15
+Author: diegoramos <00dramos@gmail.com>
+Date:   Sat Nov 4 23:46:10 2023 -0400
+
+    agregando index js al index html
+
+commit 8ad7d915cb7e20dcd097fda48e5da6bb53ab1e77
+Author: diegoramos <00dramos@gmail.com>
+Date:   Fri Nov 3 22:06:21 2023 -0400
+
+    Agregando index.js al index.haml
+
+commit 8eb1308b7757a98d50a3d43552f15244ec98367c
+Merge: dd011a9 74d2484
+Author: diegoramos <00dramos@gmail.com>
+Date:   Fri Nov 3 21:44:01 2023 -0400
+
+    Agregando style.css al index.html
+
+commit 74d2484bb27d4100488112897f2ccebdd0f71d6d
+Author: diegoramos <00dramos@gmail.com>
+Date:   Wed Nov 1 16:18:49 2023 -0400
+
+    Creando index.js
+
+commit dd011a9d23e9cd2c1ce66e6b44e727f08ac86a7f
+Author: diegoramos <00dramos@gmail.com>
+Date:   Wed Nov 1 16:10:45 2023 -0400
+
+    Creando style.css
+
+commit 100702032aee60b2458ccbeb107d73b0dc8fe7d5
+Author: diegoramos <00dramos@gmail.com>
+Date:   Wed Nov 1 16:02:55 2023 -0400
+
+    Creando archivo index.html
+
+commit cb761bc6f2285be45f7e1b0cbb023c45a24fba30
+Author: diegoramos <00dramos@gmail.com>
+Date:   Wed Nov 1 15:23:01 2023 -0400
+
+    Ignorando archivos ejecutables .exe
+
+commit f85ad85d930b12f7866f163ecc5bab6cfa3fabdb
+Author: diego ramos <66707440+diegotvramos@users.noreply.github.com>
+Date:   Mon Oct 30 11:27:14 2023 -0400
+
+    creando licencia del repositorio
+
+commit d5953e1d61f93ead4cbcb81d082704aad2106132
+Author: diegoramos <00dramos@gmail.com>
+Date:   Mon Oct 30 11:01:18 2023 -0400
+
+    agregando mas contenido al README
+
+commit a527974869f1dfd96226dacdb0dbe649707be755
+Author: diegoramos <00dramos@gmail.com>
+Date:   Mon Oct 30 10:24:12 2023 -0400
+
+    Agregando contenido inicial al README
+
+commit bd1d3d3f612a56ff73a4c55c264096f087848d07
+Author: diegoramos <00dramos@gmail.com>
+Date:   Mon Oct 30 10:10:39 2023 -0400
+
+    primer commit
