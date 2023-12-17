@@ -76,9 +76,9 @@ ________________________________________________________________________________
 creamos una carpeta en el escritorio.
 abrimos la terminal en ese directorio y creamos los siguientes archivos.
 
-> touch README.md
-> touch .gitignore
-
+- > `*touch README.md*`
+- > `*touch .gitignore*`
+<br>
 
 - > `git init`
 - > `git add .`
