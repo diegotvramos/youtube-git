@@ -80,30 +80,30 @@ abrimos la terminal en ese directorio y creamos los siguientes archivos.
 > touch .gitignore
 
 
-> `git init`
-> `git add .`
-> `git commit -m "first commit"`
-> `git branch -M main`
-> `git remote add origin https://github.com/diegotvramos/******.git`
-> `git push -u origin main`
+- > `git init`
+- > `git add .`
+- > `git commit -m "first commit"`
+- > `git branch -M main`
+- > `git remote add origin https://github.com/diegotvramos/******.git`
+- > `git push -u origin main`
 
 _despues es rutinario hacer esto cuando quieras guardar un commit:_
-> `git add .`
-> `git commit -m "Descripcion"`
-> `git push`
+- > `git add .`
+- > `git commit -m "Descripcion"`
+- > `git push`
 
 
 <H2>EN CASO DE QUE YA TENGAS UN PROYECTO ABIERTO EN 2 O MAS PCS</H2>
 
 _ANTES DE INICIAR LA PROGRAMACION ASEGURATE DE USAR ESTE COMANDO PARA descargar los cambios del repositorio remoto al local_
 
-> `git pull` 
-> `git add .`
-> `git commit -m "Descripcion"`
-> `git push` 
+- > `git pull` 
+- > `git add .`
+- > `git commit -m "Descripcion"`
+- > `git push` 
 
 <h2>EN CASO DE QUE QUIERAS CLONAR UN REPOSITORIO EN TU PC LOCAL</h2>
 
-> `git clone https://github.com/usuario/repositorio.git`
+- > `git clone https://github.com/usuario/repositorio.git`
 
 
