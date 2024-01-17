@@ -171,8 +171,11 @@ Si se fusionó, pero esta fusion se dio en mi maquina local, lo que falta es sub
 ```bash
         git push origin gh-pages
 ```
-
-
-
+ **volvemos a nuestra rama MAIN**
+    
+```bash
+    git checkout main
+```
+> Nota es importante siempre ver la rama en la que nos encontremos para que podamos subir y acualizar sin incomvenientes.
 
 
