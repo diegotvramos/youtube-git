@@ -74,10 +74,10 @@ Listar detalles (incluyendo archivos ocultos):
 creamos una carpeta en el escritorio.
 abrimos la terminal en ese directorio y creamos los siguientes archivos.
 
-```bash
-        touch README.md
-        touch .gitignore
-```
+
+- > `touch README.md`
+- > `touch .gitignore`   
+
 
 <br>
 
@@ -109,7 +109,7 @@ _ANTES DE INICIAR LA PROGRAMACION ASEGURATE DE USAR ESTE COMANDO PARA descargar 
 
 ---
 
-## subiendo a la rama  gh-pages.
+## SUBIENDO A LA RAMA GH-PAGES
 
 **gh-pages** es una rama especial para crear un sitio web a tu proyecto alojado directamente en tu repositorio de GitHub.
 
@@ -117,12 +117,12 @@ _ANTES DE INICIAR LA PROGRAMACION ASEGURATE DE USAR ESTE COMANDO PARA descargar 
 >- URL del sitio: https://usuario.github.io/repositorio
 
 
-> **Aclaracion** ya debemos tener un repositorio en GitHub.  ``git remote add origin https://github.com/usuario/repositorio.git``
+> _**Aclaracion** ya debemos tener un repositorio en GitHub.  ``git remote add origin https://github.com/usuario/repositorio.git``_
 
 Para crear esta rama especial en GitHub ejecutamos los siguientes comandos:
 
 
-* creamos la rama `gh-pages` por primera vez.
+### **creamos la rama `gh-pages` por primera vez.**
 
 ```bash
     git branch gh-pages
@@ -131,7 +131,7 @@ Para crear esta rama especial en GitHub ejecutamos los siguientes comandos:
     #las dos lineas de comandos anteriores se puede simplificar en la siguiente linea, (b) crear una rama y (checkout)cambiarte a ella
     git checkout -b rama
 
-    # 
+    # lo subimos a nuestra rama remota
     git push origin gh-pages
 
     # para descargar los cambios del repositorio remoto al local
@@ -141,9 +141,11 @@ Para crear esta rama especial en GitHub ejecutamos los siguientes comandos:
     git checkout main
 ```
 
-* **Cuando realizamos cambios y queremos que esos cambios se vena en la rama gh-pages**
+### **Cuando realizamos cambios y queremos que esos cambios se vena en la rama gh-pages**
 
 > nos posicionamos en la rama `MAIN`
+
+- > `git checkout main`
 
 Hacemos los cambios a los archivos. y al final hacemos los comandos rutinarios.
 
@@ -156,12 +158,12 @@ Hacemos los cambios a los archivos. y al final hacemos los comandos rutinarios.
 1. situarnos en la rama que se quedará con el **contenido** fusionado, en este caso `gh-pages`
 
 ```bash
-        git checkout gh-pages
+    git checkout gh-pages
 ```
 2. Ejecutamos el comando `Merge` con la rama a fusionar
 
 ```bash
-        git merge main
+    git merge main
 ```
 
 Si se fusionó, pero esta fusion se dio en mi maquina local, lo que falta es subirla al la rama gh-pages del repositorio
@@ -169,13 +171,13 @@ Si se fusionó, pero esta fusion se dio en mi maquina local, lo que falta es sub
 > **Nota** no es necesario agregar `git add .` o `git commit -m ""`
 
 ```bash
-        git push origin gh-pages
+    `git push origin gh-pages`
 ```
  **volvemos a nuestra rama MAIN**
     
 ```bash
-    git checkout main
+    `git checkout main`
 ```
-> Nota es importante siempre ver la rama en la que nos encontremos para que podamos subir y acualizar sin incomvenientes.
+> **Nota** Observar siempre la rama en la que nos encontremos, para que podamos subir y acualizar sin incomvenientes.
 
 
