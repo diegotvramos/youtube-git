@@ -124,22 +124,25 @@ Para crear esta rama especial en GitHub ejecutamos los siguientes comandos:
 
 ### **creamos la rama `gh-pages` por primera vez.**
 
-```bash
-    git branch gh-pages
-    git checkout gh-pages
+- > `git branch gh-pages`
+- > `git checkout gh-pages`
 
-    #las dos lineas de comandos anteriores se puede simplificar en la siguiente linea, (b) crear una rama y (checkout)cambiarte a ella
-    git checkout -b rama
+> las dos lineas de comandos anteriores se puede simplificar en la siguiente linea, (b) crear una rama y (checkout)cambiarte a ella
+    
+- > `git checkout -b rama`
 
-    # lo subimos a nuestra rama remota
-    git push origin gh-pages
+> lo subimos a nuestra rama remota
 
-    # para descargar los cambios del repositorio remoto al local
-    git pull origin gh-pages
+- > `git push origin gh-pages`
 
-    # volvemos a nuestra rama MAIN
-    git checkout main
-```
+> para descargar los cambios del repositorio remoto al local
+
+- > `git pull origin gh-pages`
+
+> volvemos a nuestra rama MAIN
+
+- > `git checkout main`
+
 
 ### **Cuando realizamos cambios y queremos que esos cambios se vena en la rama gh-pages**
 
@@ -157,27 +160,22 @@ Hacemos los cambios a los archivos. y al final hacemos los comandos rutinarios.
 
 1. situarnos en la rama que se quedará con el **contenido** fusionado, en este caso `gh-pages`
 
-```bash
-    git checkout gh-pages
-```
+- > `git checkout gh-pages`
+
 2. Ejecutamos el comando `Merge` con la rama a fusionar
 
-```bash
-    git merge main
-```
+- > `git merge main`
 
 Si se fusionó, pero esta fusion se dio en mi maquina local, lo que falta es subirla al la rama gh-pages del repositorio
 
 > **Nota** no es necesario agregar `git add .` o `git commit -m ""`
 
-```bash
-    `git push origin gh-pages`
-```
+- > `git push origin gh-pages`
+
  **volvemos a nuestra rama MAIN**
-    
-```bash
-    `git checkout main`
-```
+
+- > `git checkout main`
+
 > **Nota** Observar siempre la rama en la que nos encontremos, para que podamos subir y acualizar sin incomvenientes.
 
 
