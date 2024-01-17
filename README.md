@@ -66,18 +66,19 @@ Listar detalles (incluyendo archivos ocultos):
 > `ls -la`
 
 <br>
----
-___
-***
-__________________________________________________________________________________________________________
-**********************************************************************************************************
 
-<H2>CREANDO PROYECTO DESDE CERO 0</H2>
+***
+
+## CREANDO PROYECTO DESDE CERO 0
+
 creamos una carpeta en el escritorio.
 abrimos la terminal en ese directorio y creamos los siguientes archivos.
 
-- > `*touch README.md*`
-- > `*touch .gitignore*`
+```bash
+        touch README.md
+        touch .gitignore
+```
+
 <br>
 
 - > `git init`
@@ -105,5 +106,73 @@ _ANTES DE INICIAR LA PROGRAMACION ASEGURATE DE USAR ESTE COMANDO PARA descargar 
 <h2>EN CASO DE QUE QUIERAS CLONAR UN REPOSITORIO EN TU PC LOCAL</h2>
 
 - > `git clone https://github.com/usuario/repositorio.git`
+
+---
+
+## subiendo a la rama  gh-pages.
+
+**gh-pages** es una rama especial para crear un sitio web a tu proyecto alojado directamente en tu repositorio de GitHub.
+
+>- URL del repositorio: https://github.com/usuario/repositorio
+>- URL del sitio: https://usuario.github.io/repositorio
+
+
+> **Aclaracion** ya debemos tener un repositorio en GitHub.  ``git remote add origin https://github.com/usuario/repositorio.git``
+
+Para crear esta rama especial en GitHub ejecutamos los siguientes comandos:
+
+
+* creamos la rama `gh-pages` por primera vez.
+
+```bash
+    git branch gh-pages
+    git checkout gh-pages
+
+    #las dos lineas de comandos anteriores se puede simplificar en la siguiente linea, (b) crear una rama y (checkout)cambiarte a ella
+    git checkout -b rama
+
+    # 
+    git push origin gh-pages
+
+    # para descargar los cambios del repositorio remoto al local
+    git pull origin gh-pages
+
+    # volvemos a nuestra rama MAIN
+    git checkout main
+```
+
+* **Cuando realizamos cambios y queremos que esos cambios se vena en la rama gh-pages**
+
+> nos posicionamos en la rama `MAIN`
+
+Hacemos los cambios a los archivos. y al final hacemos los comandos rutinarios.
+
+- > `git add .`
+- > `git commit -m "Descripcion"`
+- > `git push`
+
+**Me posiciono en la rama gh-pages** por que lo vamos a fusionar.
+
+1. situarnos en la rama que se quedará con el **contenido** fusionado, en este caso `gh-pages`
+
+```bash
+        git checkout gh-pages
+```
+2. Ejecutamos el comando `Merge` con la rama a fusionar
+
+```bash
+        git merge main
+```
+
+Si se fusionó, pero esta fusion se dio en mi maquina local, lo que falta es subirla al la rama gh-pages del repositorio
+
+> **Nota** no es necesario agregar `git add .` o `git commit -m ""`
+
+```bash
+        git push origin gh-pages
+```
+
+
+
 
 
