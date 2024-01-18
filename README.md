@@ -127,35 +127,35 @@ Para crear esta rama especial en GitHub ejecutamos los siguientes comandos:
 - > `git commit -m "Descripcion"`
 - > `git push`
 
-### ** Por primera vez creamos la rama con el nombre:  `gh-pages`.**
+### Por primera vez creamos la rama con el nombre:  `gh-pages`.
 
 - > `git branch gh-pages`
 - > `git checkout gh-pages`
 
-las dos lineas de comandos anteriores se puede simplificar en la siguiente linea, (b) crear una rama y (checkout)cambiarte a ella
+_las dos lineas de comandos anteriores se puede **simplificar** en la siguiente linea, (b) crear una rama y (checkout)cambiarte a ella_
     
-- > **`git checkout -b gh-pages`**
+- > `git checkout -b gh-pages`
 
-> lo subimos a nuestra rama remota
+_lo subimos a nuestra rama remota_
 
-- > **`git push origin gh-pages`**
+- > `git push origin gh-pages`
 
-> para descargar los cambios del repositorio remoto al local
+_para descargar los cambios del repositorio remoto al local_
 
 - > `git pull origin gh-pages`
 
-> volvemos a nuestra rama MAIN
-
-- > *`git checkout main`*
-
-
-### **Cuando realizamos cambios y queremos que esos cambios se vean en la rama gh-pages**
-
-> estando en la rama `MAIN` hacemos todo los cambios que querramos.
+ _volvemos a nuestra rama MAIN_
 
 - > `git checkout main`
 
-Hacemos los cambios a los archivos. y al final hacemos los comandos rutinarios.
+
+### Cuando realizamos cambios y queremos que esos cambios se vean en la rama gh-pages
+
+_estando en la rama `MAIN` hacemos todo los cambios que querramos._
+
+- > `git checkout main`
+
+_Hacemos los cambios a los archivos. y al final hacemos los comandos rutinarios._
 
 - > `git add .`
 - > `git commit -m "Descripcion"`
@@ -165,21 +165,21 @@ Hacemos los cambios a los archivos. y al final hacemos los comandos rutinarios.
 
 1. situarnos en la rama que se quedará con el **contenido** fusionado, en este caso `gh-pages`
 
-- > **`git checkout gh-pages`**
+- > `git checkout gh-pages`
 
 2. Ejecutamos el comando `Merge` con la rama a fusionar
 
-- > **`git merge main`**
+- > `git merge main`
 
-Si se fusionó, pero esta fusion se dio en mi maquina local, lo que falta es subirla al la rama gh-pages del repositorio
+_Si se fusionó, pero esta fusion se dio en mi maquina local, lo que falta es subirla al la rama gh-pages del repositorio_
 
 > **Nota** no es necesario agregar `git add .` o `git commit -m ""`
 
-- > **`git push origin gh-pages`**
+- > `git push origin gh-pages`
 
- **volvemos a nuestra rama MAIN**
+ _Volvemos a nuestra rama **MAIN**_
 
-- > **`git checkout main`**
+- > `git checkout main`
 
 > **Nota** Observar siempre la rama en la que nos encontremos, para que podamos subir y acualizar sin incomvenientes.
 
