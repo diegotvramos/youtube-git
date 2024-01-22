@@ -184,3 +184,23 @@ _Si se fusionó, pero esta fusion se dio en mi maquina local, lo que falta es su
 > **Nota** Observar siempre la rama en la que nos encontremos, para que podamos subir y acualizar sin incomvenientes.
 
 
+### Reemplazando la Rama Master por Main (en repositorios existentes)
+
+Primero ejecutamos los comandos rutinarios.
+
+- > ``git add .``
+- > ``git commit -m "Second commit"``
+- > ``git push``
+
+ahora realizamos los siguientes pasos 
+1. Crea la rama local main y pásale el historial de la rama master.
+2. Haz un push de la nueva rama local main en el repositorio remoto de GitHub.
+3. Cambia el HEAD actual a la rama main.
+4. Cambia la rama default de master a main en tu repositorio de GitHub . 
+5. Elimina la rama master del repositorio remoto.
+
+- > `git branch -m master main`
+- > `git push -u origin main`
+- > `git symbolic-ref refs/remotes/origin/HEAD refs/remotes/origin/main`
+- > [enlace](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-branches-in-your-repository/changing-the-default-branch)
+- > `git push origin --delete master`
