@@ -15,7 +15,7 @@ Mira este [enlace](https://jonmircha.com/git)
 ![flujo de Git](git-flow.png)
 
 
-<h2>algunos comandos básicos de la terminal para el manejo de carpetas en sistemas basados en Unix (como Linux o macOS) y también en la línea de comandos de Windows:</h2>
+**algunos comandos básicos de la terminal para el manejo de carpetas en sistemas basados en Unix (como Linux o macOS) y también en la línea de comandos de Windows:**
 
 pwd (Print Working Directory):
 Muestra la ruta completa del directorio actual.
@@ -155,7 +155,7 @@ _estando en la rama `MAIN` hacemos todo los cambios que querramos._
 
 - > `git checkout main`
 
-_podemos colocar un link que nos rediriga a la pagina `gh-pages`_
+_podemos colocar un link que nos redirija a la pagina `gh-pages`_
 
 - > `[link](https://diegotvramos.github.io/nombre-del-proyecto/)`
 
