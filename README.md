@@ -127,7 +127,7 @@ Para crear esta rama especial en GitHub ejecutamos los siguientes comandos:
 - > `git commit -m "Descripcion"`
 - > `git push`
 
-### Por primera vez creamos la rama con el nombre:  `gh-pages`.
+### Creamos por primera y unica vez la rama con el nombre:  `gh-pages`.
 
 - > `git branch gh-pages`
 - > `git checkout gh-pages`
@@ -155,13 +155,17 @@ _estando en la rama `MAIN` hacemos todo los cambios que querramos._
 
 - > `git checkout main`
 
+_podemos colocar un link que nos rediriga a la pagina `gh-pages`_
+
+- > `[link](https://diegotvramos.github.io/nombre-del-proyecto/)`
+
 _Hacemos los cambios a los archivos. y al final hacemos los comandos rutinarios._
 
 - > `git add .`
 - > `git commit -m "Descripcion"`
 - > `git push`
 
-**Me posiciono en la rama gh-pages** por que lo vamos a fusionar.
+**Me posiciono en la rama gh-pages** porque lo vamos a fusionar.
 
 1. situarnos en la rama que se quedará con el **contenido** fusionado, en este caso `gh-pages`
 
