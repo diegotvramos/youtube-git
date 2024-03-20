@@ -115,13 +115,14 @@ _ANTES DE INICIAR LA PROGRAMACION ASEGURATE DE USAR ESTE COMANDO PARA descargar 
 
 >- URL del repositorio: https://github.com/usuario/repositorio
 >- URL del sitio: https://usuario.github.io/repositorio
+> _**Aclaracion** ya debemos tener un repositorio en GitHub.  ``git remote add origin https://github.com/usuario/repositorio.git``_
+
+
 
 _podemos colocar un link que nos redirija a la pagina `gh-pages`_
 
 - > `[link](https://diegotvramos.github.io/nombre-del-proyecto/)`
 
-
-> _**Aclaracion** ya debemos tener un repositorio en GitHub.  ``git remote add origin https://github.com/usuario/repositorio.git``_
 
 Para crear esta rama especial en GitHub ejecutamos los siguientes comandos:
 
