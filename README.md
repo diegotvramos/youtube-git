@@ -115,7 +115,21 @@ _ANTES DE INICIAR LA PROGRAMACION ASEGURATE DE USAR ESTE COMANDO PARA descargar 
 
 >- URL del repositorio: https://github.com/usuario/repositorio
 >- URL del sitio: https://usuario.github.io/repositorio
+
 > _**Aclaracion** ya debemos tener un repositorio en GitHub.  ``git remote add origin https://github.com/usuario/repositorio.git``_
+
+> **error basi de css** ``<link rel="stylesheet" href="/css/style-wp-api-rest.css">`` -> `<link rel="stylesheet" href="css/style-wp-api-rest.css">` `<img src="/assets/auto-repair-svgrepo-com.svg" alt="icono de mecanico">`
+
+
+Si el archivo está en la misma carpeta que el archivo HTML, puedes usar una ruta relativa simple como esta:
+
+> `<img class="loader" src="ball-triangle.svg" alt="triangle cargando">`
+
+Si el archivo SVG está en una carpeta diferente, ajusta la ruta en consecuencia. Por ejemplo:
+
+> `<img class="loader" src="assets/ball-triangle.svg" alt="triangle cargando">`
+
+
 
 
 
