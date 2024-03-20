@@ -116,6 +116,10 @@ _ANTES DE INICIAR LA PROGRAMACION ASEGURATE DE USAR ESTE COMANDO PARA descargar 
 >- URL del repositorio: https://github.com/usuario/repositorio
 >- URL del sitio: https://usuario.github.io/repositorio
 
+_podemos colocar un link que nos redirija a la pagina `gh-pages`_
+
+- > `[link](https://diegotvramos.github.io/nombre-del-proyecto/)`
+
 
 > _**Aclaracion** ya debemos tener un repositorio en GitHub.  ``git remote add origin https://github.com/usuario/repositorio.git``_
 
@@ -154,10 +158,6 @@ _para descargar los cambios del repositorio remoto al local_
 _estando en la rama `MAIN` hacemos todo los cambios que querramos._
 
 - > `git checkout main`
-
-_podemos colocar un link que nos redirija a la pagina `gh-pages`_
-
-- > `[link](https://diegotvramos.github.io/nombre-del-proyecto/)`
 
 _Hacemos los cambios a los archivos. y al final hacemos los comandos rutinarios._
 
