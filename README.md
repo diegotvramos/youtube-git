@@ -221,5 +221,5 @@ ahora realizamos los siguientes pasos
 - > `git branch -m master main`
 - > `git push -u origin main`
 - > `git symbolic-ref refs/remotes/origin/HEAD refs/remotes/origin/main`
-- > [enlace](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-branches-in-your-repository/changing-the-default-branch)
+- > [enlace](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-branches-in-your-repository/changing-the-default-branch#changing-the-default-branch)
 - > `git push origin --delete master`
