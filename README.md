@@ -94,18 +94,20 @@ _despues es rutinario hacer esto cuando quieras guardar un commit:_
 - > `git push`
 
 
-<H2>EN CASO DE QUE YA TENGAS UN PROYECTO ABIERTO EN 2 O MAS PCS</H2>
+## EN CASO DE QUE YA TENGAS UN PROYECTO ABIERTO EN 2 O MAS PCS
 
-_ANTES DE INICIAR LA PROGRAMACION ASEGURATE DE USAR ESTE COMANDO PARA descargar los cambios del repositorio remoto al local_
+Para descargar los cambios del repositorio remoto al pc local(hazlo antes de empesar a programar)
 
 - > `git pull` 
 - > `git add .`
 - > `git commit -m "Descripcion"`
 - > `git push` 
 
-<h2>EN CASO DE QUE QUIERAS CLONAR UN REPOSITORIO EN TU PC LOCAL</h2>
+## EN CASO DE QUE QUIERAS CLONAR UN REPOSITORIO EN TU PC LOCAL
 
 - > `git clone https://github.com/usuario/repositorio.git`
+
+(puedes ignorar el `.git`)
 
 ---
 
@@ -151,59 +153,55 @@ Para crear esta rama especial en GitHub ejecutamos los siguientes comandos:
 - > `git branch gh-pages`
 - > `git checkout gh-pages`
 
-_las dos lineas de comandos anteriores se puede **simplificar** en la siguiente linea, (b) crear una rama y (checkout)cambiarte a ella_
+1. las dos lineas de comandos anteriores se puede **simplificar** en la siguiente linea, (b) crear una rama y (checkout) cambiarte a ella
+2. lo subimos a nuestra rama remota
+3. para descargar los cambios del repositorio remoto al local
+4. volvemos a nuestra rama MAIN
     
 - > `git checkout -b gh-pages`
 
-_lo subimos a nuestra rama remota_
-
 - > `git push origin gh-pages`
 
-_para descargar los cambios del repositorio remoto al local_
-
 - > `git pull origin gh-pages`
-
- _volvemos a nuestra rama MAIN_
 
 - > `git checkout main`
 
 
 ### Cuando realizamos cambios y queremos que esos cambios se vean en la rama gh-pages
 
-_estando en la rama `MAIN` hacemos todo los cambios que querramos._
+_Estando en la rama `MAIN` hacemos todo los cambios que querramos._
 
 - > `git checkout main`
 
-_Hacemos los cambios a los archivos. y al final hacemos los comandos rutinarios._
+_Hacemos los cambios a los archivos, y al final hacemos los comandos rutinarios._
 
 - > `git add .`
 - > `git commit -m "Descripcion"`
 - > `git push`
 
-**Me posiciono en la rama gh-pages** porque lo vamos a fusionar.
+**Fusionamos la rama**
 
-1. situarnos en la rama que se quedará con el **contenido** fusionado, en este caso `gh-pages`
+1. **Me posiciono en la rama ``gh-pages``** que se quedará con el **contenido**.
+
+2. Ejecutamos el comando `Merge` con la rama a fusionar.
+
+3. Se fusionó, pero esta fusion se dio en mi maquina local, lo que falta es subirla al la rama ``gh-pages`` del repositorio.
+
+4. Volvemos a nuestra rama **MAIN**
 
 - > `git checkout gh-pages`
-
-2. Ejecutamos el comando `Merge` con la rama a fusionar
-
 - > `git merge main`
-
-_Si se fusionó, pero esta fusion se dio en mi maquina local, lo que falta es subirla al la rama gh-pages del repositorio_
-
-> **Nota** no es necesario agregar `git add .` o `git commit -m ""`
-
 - > `git push origin gh-pages`
-
- _Volvemos a nuestra rama **MAIN**_
-
 - > `git checkout main`
 
-> **Nota** Observar siempre la rama en la que nos encontremos, para que podamos subir y acualizar sin incomvenientes.
 
+_**Nota**: no es necesario agregar `git add .` o `git commit -m ""`_
 
-### Reemplazando la Rama Master por Main (en repositorios existentes)
+_**Nota** Observar siempre la rama en la que nos encontremos, para que podamos subir y acualizar sin incomvenientes._
+
+***
+
+## Reemplazando la Rama Master por Main (en repositorios existentes)
 
 Primero ejecutamos los comandos rutinarios.
 
